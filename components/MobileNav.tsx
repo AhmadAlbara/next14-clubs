@@ -52,7 +52,7 @@ const MobileNav = () => {
         >
           <Link href={"/"} className="flex items-center text-white gap-1">
             <SiClubhouse size={32} />
-            <p className="text-[26px] font-extrabold  ">Clubs</p>
+            <p className="text-[26px] font-extrabold ">Clubs</p>
           </Link>
           <div className="flex h-[calc(100vh-72px)] flex-col justify-between overflow-y-auto">
             <SheetClose asChild onClick={toggleMenu}>
