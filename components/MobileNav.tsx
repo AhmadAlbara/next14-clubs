@@ -21,7 +21,10 @@ const MobileNav = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <section className="w-full max-w-[264px]" onClick={toggleMenu}>
+    <section
+      className="w-full max-w-[264px] sm:hidden block"
+      onClick={toggleMenu}
+    >
       <Sheet>
         <SheetTrigger asChild onClick={toggleMenu}>
           <button className="flex flex-col gap-1 p-2">
